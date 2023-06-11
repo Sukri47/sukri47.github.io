@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>MY PORTFOLIO</title>
     <link rel="stylesheet" href="port.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
   </head>
@@ -11,17 +11,17 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-primary shadow" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand fw-semibold" href="#">My Portofolio</a>
+        <a class="navbar-brand fs-3 fw-semibold" href="#">MY PORTFOLIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#about">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Gallery</a>
@@ -36,10 +36,10 @@
     <!-- close navbar -->
 
     <!-- hero -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" id="home">
       <img src="img/channels4_profile (1).jpg" alt="orang ganteng" class="rounded-circle img-thumbnail" />
-      <h1 class="fs-3">Sukri Tri Maulana</h1>
-      <p class="fw-1">Students | Front End Developer</p>
+      <h1 class="fs-1 fw-semibold">Sukri Tri Maulana</h1>
+      <p class="fs-6">Students | Front End Developer</p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#fff"
@@ -49,6 +49,23 @@
       </svg>
     </section>
     <!-- close hero -->
+    <!-- about -->
+    <section id="about">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-md">
+            <h2 class="text-center fs-3">About Me</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid repellat et perferendis, mollitia pariatur nihil voluptate! Suscipit adipisci reprehenderit accusamus.</div>
+          <div class="col-md-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, tenetur similique eos quas voluptatem perspiciatis magni, non a consequatur iure quibusdam sapiente impedit possimus odio.</div>
+        </div>
+      </div>
+    </section>
+    <!-- close about -->
+
+    <!-- gallery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
