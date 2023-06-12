@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 6rem;
   background-color: #a7e2fd;
 }
 section img {
@@ -11,4 +11,10 @@ section p {
 }
 #gallery {
   background-color: #a7e2fd;
+}
+footer {
+  margin-bottom: -1rem;
+}
+section {
+  padding-top: 5rem;
 }
