@@ -1,0 +1,35 @@
+.first {
+  padding-top: 6rem;
+  background-color: #a7e2fd;
+}
+section .wa {
+  width: 2rem;
+}
+section a {
+  text-decoration: none;
+}
+section a:hover {
+  text-decoration: underline;
+}
+section .htmlcss {
+  margin-top: 0.5rem;
+  width: 6rem;
+}
+section .htmlcss2 {
+  width: 4.2rem;
+}
+.markup {
+  margin-left: 0.5rem;
+}
+section .boots {
+  width: 4.2rem;
+}
+section .chatgpt {
+  width: 12rem;
+}
+section .vsc {
+  width: 10rem;
+}
+footer {
+  margin-bottom: -1rem;
+}
